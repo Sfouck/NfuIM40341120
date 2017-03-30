@@ -3,7 +3,7 @@
 from functools import partial
 
 
-def printsomething(s = "Hello World!"):
+def printsomething(s = "Hello  World!"):
     print(s)
 
 class Set:

@@ -1,6 +1,10 @@
-print "d0330,Hello world!"
+
 
 from functools import partial
+
+
+def printsomething(s = "Hello World!"):
+    print(s)
 
 class Set:
     def __init__(self, values=None):
@@ -58,3 +62,5 @@ def magic(*args, **kwargs):
     print "unnamed args:", args
     print "keyword args:", kwargs
 magic(1, 2, key="word", key2="word2")
+
+printsomething("d0330,Hello apple!")

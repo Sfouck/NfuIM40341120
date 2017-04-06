@@ -1,3 +1,3 @@
 # 吳建澄的筆記
 
-TEST
+20170406:add d0407.py at Practice

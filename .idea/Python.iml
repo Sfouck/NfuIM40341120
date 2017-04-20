@@ -5,6 +5,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="data-science-from-scratch" />
+    <orderEntry type="module" module-name="handsomeboy" />
+    <orderEntry type="module" module-name="data-science-from-scratch" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />

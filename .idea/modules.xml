@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Python.iml" filepath="$PROJECT_DIR$/.idea/Python.iml" />
       <module fileurl="file://$PROJECT_DIR$/../data-science-from-scratch/.idea/data-science-from-scratch.iml" filepath="$PROJECT_DIR$/../data-science-from-scratch/.idea/data-science-from-scratch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../data-science-from-scratch/.idea/data-science-from-scratch.iml" filepath="$PROJECT_DIR$/../data-science-from-scratch/.idea/data-science-from-scratch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../handsomeboy/.idea/handsomeboy.iml" filepath="$PROJECT_DIR$/../handsomeboy/.idea/handsomeboy.iml" />
     </modules>
   </component>
 </project>

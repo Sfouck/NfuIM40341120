@@ -1,6 +1,12 @@
 # 吳建澄的筆記
 
-### 20170413:
+### 20170525:
++ add d0525_xxx.py at Practice
+
+### 20170518:
++ add d0518_xxx.py*4 at Practice
+
+### 20170504:
 + add d0504_scatter.py at Practice
 
 ### 20170413:

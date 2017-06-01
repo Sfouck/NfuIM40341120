@@ -1,4 +1,4 @@
-from decision_trees import *
+from Practice.lib.decision_trees import *
 
 inputs = [
         ({'level':'Senior','lang':'Java','tweets':'no','phd':'no'},   False),

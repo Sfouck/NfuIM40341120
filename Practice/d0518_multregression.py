@@ -1,12 +1,14 @@
 from __future__ import division
-from collections import Counter
+
+import random
 from functools import partial
+
 from linear_algebra import dot, vector_add
-from statistics import median, standard_deviation
 from probability import normal_cdf
-from gradient_descent import minimize_stochastic
 from simple_linear_regression import total_sum_of_squares
-import math, random
+from statistics import median, standard_deviation
+
+from Practice.lib.gradient_descent import minimize_stochastic
 
 
 def predict(x_i, beta):

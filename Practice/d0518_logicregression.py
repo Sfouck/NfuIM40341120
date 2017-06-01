@@ -1,12 +1,15 @@
 from __future__ import division
-from collections import Counter
+
+import math
+import random
 from functools import partial
+
 from linear_algebra import dot, vector_add
-from gradient_descent import maximize_stochastic, maximize_batch
-from working_with_data import rescale
 from machine_learning import train_test_split
-from d0518_multregression import estimate_beta, predict
-import math, random
+from working_with_data import rescale
+
+from Practice.lib.gradient_descent import maximize_stochastic, maximize_batch
+from d0518_multregression import estimate_beta
 
 
 def logistic(x):

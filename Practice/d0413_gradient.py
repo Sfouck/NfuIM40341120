@@ -1,6 +1,6 @@
 from __future__ import division
-from funcs import *
 
+from Practice.lib.funcs import *
 
 if __name__ == "__main__":
 

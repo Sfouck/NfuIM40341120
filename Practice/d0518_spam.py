@@ -1,7 +1,12 @@
 from __future__ import division
+
+import glob
+import math
+import random
+import re
 from collections import Counter, defaultdict
-from machine_learning import split_data
-import math, random, re, glob
+
+from Practice.lib.machine_learning import split_data
 
 
 def tokenize(message):

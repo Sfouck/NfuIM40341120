@@ -9,6 +9,7 @@
     <orderEntry type="module" module-name="data-science-from-scratch" />
     <orderEntry type="module" module-name="data-science-from-scratch" />
     <orderEntry type="module" module-name="data-science-from-scratch" />
+    <orderEntry type="module" module-name="data-science-from-scratch" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />

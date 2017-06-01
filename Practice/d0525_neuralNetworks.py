@@ -1,4 +1,4 @@
-from neural_networks import *
+from Practice.lib.neural_networks import *
 
 raw_digits = [
     """11111

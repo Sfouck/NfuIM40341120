@@ -1,5 +1,11 @@
 # 吳建澄的筆記
 
+### 20170608:
++ add d0608_xxx.py at Practice
+
+### 20170601:
++ add d0601_xxx.py at Practice
+
 ### 20170525:
 + add d0525_xxx.py at Practice
 

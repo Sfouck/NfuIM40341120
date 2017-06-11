@@ -1,6 +1,6 @@
 # 吳建澄的筆記
 
-[常用Hotkey](hotkey.md)
+[常用Hotkey](/hotkey.md)
 
 ### 20170608:
 + add d0608_xxx.py at Practice

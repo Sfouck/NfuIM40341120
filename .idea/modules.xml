@@ -3,14 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Python.iml" filepath="$PROJECT_DIR$/.idea/Python.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../data-science-from-scratch/.idea/data-science-from-scratch.iml" filepath="$PROJECT_DIR$/../data-science-from-scratch/.idea/data-science-from-scratch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../data-science-from-scratch/.idea/data-science-from-scratch.iml" filepath="$PROJECT_DIR$/../data-science-from-scratch/.idea/data-science-from-scratch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../data-science-from-scratch/.idea/data-science-from-scratch.iml" filepath="$PROJECT_DIR$/../data-science-from-scratch/.idea/data-science-from-scratch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../data-science-from-scratch/.idea/data-science-from-scratch.iml" filepath="$PROJECT_DIR$/../data-science-from-scratch/.idea/data-science-from-scratch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../data-science-from-scratch/.idea/data-science-from-scratch.iml" filepath="$PROJECT_DIR$/../data-science-from-scratch/.idea/data-science-from-scratch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../data-science-from-scratch/.idea/data-science-from-scratch.iml" filepath="$PROJECT_DIR$/../data-science-from-scratch/.idea/data-science-from-scratch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../handsomeboy/.idea/handsomeboy.iml" filepath="$PROJECT_DIR$/../handsomeboy/.idea/handsomeboy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../tutorials/.idea/tutorials.iml" filepath="$PROJECT_DIR$/../tutorials/.idea/tutorials.iml" />
+      <module fileurl="file://C:\Users\wjc\PycharmProjects\data-science-from-scratch\.idea\data-science-from-scratch.iml" filepath="C:\Users\wjc\PycharmProjects\data-science-from-scratch\.idea\data-science-from-scratch.iml" />
+      <module fileurl="file://C:\Users\wjc\PycharmProjects\handsomeboy\.idea\handsomeboy.iml" filepath="C:\Users\wjc\PycharmProjects\handsomeboy\.idea\handsomeboy.iml" />
+      <module fileurl="file://C:\Users\wjc\PycharmProjects\tutorials\.idea\tutorials.iml" filepath="C:\Users\wjc\PycharmProjects\tutorials\.idea\tutorials.iml" />
     </modules>
   </component>
 </project>

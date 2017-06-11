@@ -1,14 +1,34 @@
-from sklearn import datasets,svm
+# code = utf-8
+from sklearn.naive_bayes import MultinomialNB
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-load_date = np.array(pd.read_table("ColorHistogram.asc.gz"))
+data_parem = []
+data_result = []
 
-print len(load_date[0][0].split()[1:])
-test = load_date[0][0].split()[1:]
-print test
+f = open("connect-4.data","rb")
 
-test = [[load_date[0][0].split()[1:][i*j+j] for j in range(1,8)] for i in range(4)]
-for g in test:
-    print g
+temp=[]
+for line in f.read().split("\n"):
+    temp = line.split(",")
+    data_parem.append(temp[:-1])
+    data_result.append(temp[-1])
+
+#data_parem = np.array(data_parem)
+#data_result = np.array(data_result)
+
+print len(data_parem)
+print data_parem[0],data_result[0]
+
+clf = MultinomialNB()
+
+clf.fit(data_parem[:10000], data_result[:10000])
+result = clf.predict(data_parem[-10])
+print "predict:"
+print result
+print "actual:"
+print data_result[:-10]
+
+print
+

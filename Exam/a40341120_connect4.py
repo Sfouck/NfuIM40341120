@@ -7,19 +7,19 @@ import pandas as pd
 data_parem = []
 data_result = []
 
-f = open("connect-4.data","rb")
+f = open("connect-4.data", "rb")
 
-temp=[]
+temp = []
 for line in f.read().split("\n"):
     temp = line.split(",")
     data_parem.append(temp[:-1])
     data_result.append(temp[-1])
 
-#data_parem = np.array(data_parem)
-#data_result = np.array(data_result)
+# data_parem = np.array(data_parem)
+# data_result = np.array(data_result)
 
 print len(data_parem)
-print data_parem[0],data_result[0]
+print data_parem[0], data_result[0]
 
 clf = MultinomialNB()
 
@@ -31,4 +31,3 @@ print "actual:"
 print data_result[:-10]
 
 print
-

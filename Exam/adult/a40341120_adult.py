@@ -1,20 +1,3 @@
-# -*- coding:utf8 -*-
-# Attribute Information:
-#
-# No: row number
-# year: year of data in this row
-# month: month of data in this row
-# day: day of data in this row
-# hour: hour of data in this row
-# pm2.5: PM2.5 concentration (ug/m^3)
-# DEWP: Dew Point (â„ƒ)
-# TEMP: Temperature (â„ƒ)
-# PRES: Pressure (hPa)
-# cbwd: Combined wind direction
-# Iws: Cumulated wind speed (m/s)
-# Is: Cumulated hours of snow
-# Ir: Cumulated hours of rain
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -28,50 +11,63 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 import warnings
 
-
-def warn(*args, **kwargs):
-    pass
-
-
-warnings.warn = warn
 if __name__ == '__main__':
-    train_percent = 95
+    def warn(*args, **kwargs):
+        pass
 
-    load_data = pd.read_csv("Beijing_pm2.5.csv")
-    load_data = load_data[(load_data["pm2.5"] >= 0)]
-    # cbwd = {"cv": 0.21,
-    #         "NE": 0.11,
-    #         "NW": 0.33,
-    #         "SE": 0.35}
-    cbwd = {"cv": 1,
-            "NE": 2,
-            "NW": 4,
-            "SE": 5}
-    load_data["cbwd"] = [cbwd[wind] for wind in load_data["cbwd"]]
 
-    select_row = "TEMP,PRES".split(",")
+    warnings.warn = warn
+
+
+    def load_data(path):
+        data = []
+        with open("adult.data", "r") as data_file:
+            for line in data_file:
+                if line.find("?") == -1:
+                    data.append(line.strip().split(","))
+                else:
+                    pass
+        return data
+
+
+    train_data = load_data("adult.data")
+    adult_columns = "age,workclass,fnlwgt,education,education-num,marital-status,occupation,relationship,race,sex," \
+                    "capital-gain,capital-loss,hours-per-week,native-country,over50k".split(",")
+    train_data = pd.DataFrame(train_data, columns=adult_columns)
+
+    print train_data
+    train_data["over50k"] = [1 if x == " >50K" else 0 for x in train_data["over50k"]]
+    continuous_col = "age,fnlwgt,education-num,capital-gain,capital-loss,hours-per-week".split(",")
+    for col in continuous_col:
+        print(col)
+        # print(train_data[col])
+        train_data[col] = [int(x) if not (x == "" or x == None)else 0 for x in train_data[col]]
+        print("{:s} is done".format(col))
+
+    print len(train_data)
+    print train_data.head(15)
+    select_row = "age,fnlwgt".split(",")
     print select_row
     # print train_data[select_row]
 
     h = .02  # step size in the mesh
+    train_percent = 50
 
-    names = ["Nearest Neighbors","Naive Bayes", "Linear SVM", "RBF SVM", "Neural Net"]
+    names = ["Nearest Neighbors", "Naive Bayes", "Neural Net"]
 
     classifiers = [
         KNeighborsClassifier(3),
         GaussianNB(),
-        SVC(kernel="linear", C=0.025),
-        SVC(gamma=2, C=1),
         MLPClassifier(alpha=1)]
 
-    figure = plt.figure(figsize=(4, 4))
+    figure = plt.figure(figsize=(3, 3))
 
     # iterate over datasets
     # preprocess dataset, split into training and test part
-    X, y = load_data[select_row], load_data["pm2.5"]
+    X, y = train_data[select_row], train_data["over50k"]
     X = StandardScaler().fit_transform(X)
     X_train, X_test, y_train, y_test = \
-        train_test_split(X, y, test_size=1-train_percent / 100.0, random_state=42)
+        train_test_split(X, y, test_size=1 - train_percent / 100.0, random_state=42)
 
     # x_min, x_max = X[:, 0].min() - .5, X[:, 0].max() + .5
     # y_min, y_max = X[:, 1].min() - .5, X[:, 1].max() + .5
@@ -96,7 +92,7 @@ if __name__ == '__main__':
     for name, clf in zip(names, classifiers):
         print("{}:".format(name))
 
-        ax = plt.subplot(1, len(classifiers),1)
+        ax = plt.subplot(1, len(classifiers), 1)
         clf.fit(X_train, y_train)
         score = clf.score(X_test, y_test)
 
@@ -128,5 +124,5 @@ if __name__ == '__main__':
         # ax.text(xx.max() - .3, yy.min() + .3, ('%.2f' % score).lstrip('0'),
         #         size=15, horizontalalignment='right')
 
-    # plt.tight_layout()
-    # plt.show()
+        # plt.tight_layout()
+        # plt.show()

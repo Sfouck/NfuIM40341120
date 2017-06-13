@@ -2,8 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e83b01f6-7e4d-4a38-916e-e6d2aaac8b7c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/Anleitung.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/Vier Gewinnt-KI.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exam/Connect-Four/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exam/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/VG.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/dtree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/exports/export_dtree.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/exports/export_mlp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/exports/export_mlp_20hn-mediocre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/exports/export_mlp_300hn-bad.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/exports/export_mlp_30hn-mediocre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/exports/export_mlp_40hn-flawed-but-good.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/exports/export_rbf.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/game.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/global_vars.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/kmeans.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/mlp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/pcn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/rbf.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/export_dtree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/export_mlp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/export_rbf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/settings.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Exam/a40341120_connect4.py" afterPath="$PROJECT_DIR$/Exam/Connect-Four/a40341120_connect4.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exam/adult/a40341120_adult.py" afterPath="$PROJECT_DIR$/Exam/adult/a40341120_adult.py" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,10 +78,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="a40341120_connect4.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exam/a40341120_connect4.py">
+        <entry file="file://$PROJECT_DIR$/Exam/Connect-Four/a40341120_connect4.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
               <folding>
                 <element signature="e#15#60#0" expanded="true" />
               </folding>
@@ -62,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="a40341120_adult.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="a40341120_adult.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exam/adult/a40341120_adult.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="-154">
               <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
               <folding>
                 <element signature="e#15#30#0" expanded="true" />
@@ -74,48 +101,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="a40341120_pm2.5.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exam/a40341120_pm2.5.py">
+      <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="107" column="47" lean-forward="true" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="47" />
+            <state relative-caret-position="184">
+              <caret line="580" column="67" lean-forward="true" selection-start-line="580" selection-start-column="67" selection-end-line="580" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adult.names" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exam/adult/adult.names">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1160">
-              <caret line="113" column="65" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adult.test" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exam/adult/adult.test">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adult.data" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exam/adult/adult.data">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="127" lean-forward="false" selection-start-line="8" selection-start-column="127" selection-end-line="8" selection-end-column="127" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hotkey.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hotkey.md">
+      <file leaf-file-name="export_mlp.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Machine-Learning--Connect-Four-master/exports/export_mlp.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -259,7 +256,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Exam" />
+              <option name="myItemId" value="Practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfu40341120_WuJianChen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfu40341120_WuJianChen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Machine-Learning--Connect-Four-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfu40341120_WuJianChen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfu40341120_WuJianChen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Machine-Learning--Connect-Four-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exports" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -275,17 +304,18 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\PycharmProjects\nfu40341120_WuJianChen\Exam" />
-      <recent name="C:\Users\User\PycharmProjects\nfu40341120_WuJianChen\Practice\lib" />
-      <recent name="C:\Users\User\PycharmProjects\nfu40341120_WuJianChen\Practice" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wjc\PycharmProjects\nfu40341120_WuJianChen" />
       <recent name="D:\nfu40341120_WuJianChen\Exam" />
       <recent name="C:\Users\wjc\PycharmProjects\nfu40341120_WuJianChen\Exam" />
       <recent name="C:\Users\user\PycharmProjects\nfu40341120_WuJianChen\Practice\data" />
       <recent name="C:\Users\User\PycharmProjects\nfu40341120_WuJianChen\Practice\lib" />
-      <recent name="C:\Users\User\PycharmProjects\nfu40341120_WuJianChen\Practice\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wjc\PycharmProjects\nfu40341120_WuJianChen\Exam\Connect-Four" />
+      <recent name="C:\Users\user\PycharmProjects\nfu40341120_WuJianChen\Exam" />
+      <recent name="C:\Users\User\PycharmProjects\nfu40341120_WuJianChen\Practice\lib" />
+      <recent name="C:\Users\User\PycharmProjects\nfu40341120_WuJianChen\Practice" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -352,7 +382,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exam/a40341120_connect4.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\wjc\PycharmProjects\nfu40341120_WuJianChen\Exam\Connect-Four\a40341120_connect4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -689,7 +719,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497366998453</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="20170613">
+      <created>1497368698629</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1497368698629</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -711,7 +748,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32371795" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24893162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -811,14 +848,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Practice/lib/working_with_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/data-science-from-scratch/code/probability.py" />
     <entry file="file://D:/data-science-from-scratch/code/linear_algebra.py" />
     <entry file="file://D:/data-science-from-scratch/code/working_with_data.py" />
     <entry file="file://$PROJECT_DIR$/Practice/lib/statistics.py">
@@ -1050,20 +1079,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam/adult/adult.test">
+    <entry file="file://$PROJECT_DIR$/Exam/Connect-Four/a40341120_connect4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding>
+            <element signature="e#15#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam/a40341120_connect4.py">
+    <entry file="file://$PROJECT_DIR$/Exam/adult/a40341120_adult.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+        <state relative-caret-position="-154">
+          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
           <folding>
-            <element signature="e#15#60#0" expanded="true" />
+            <element signature="e#15#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1071,7 +1102,7 @@
     <entry file="file://$PROJECT_DIR$/Exam/a40341120_pm2.5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="107" column="47" lean-forward="true" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="47" />
+          <caret line="107" column="47" lean-forward="false" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -1084,21 +1115,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam/adult/adult.names">
+    <entry file="file://$PROJECT_DIR$/Exam/adult/adult.test">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="113" column="65" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="65" />
+        <state relative-caret-position="66">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam/adult/a40341120_adult.py">
+    <entry file="file://$PROJECT_DIR$/Exam/adult/adult.names">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="352">
+          <caret line="103" column="38" lean-forward="true" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine-Learning--Connect-Four-master/exports/export_mlp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="580" column="67" lean-forward="true" selection-start-line="580" selection-start-column="67" selection-end-line="580" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,66 +1,75 @@
 
+# coding=utf-8
+import numpy as np
+from matplotlib import pyplot
 
-from functools import partial
+# 第一個範例
 
-
-def printsomething(s = "Hello  World!"):
-    print(s)
-
-class Set:
-    def __init__(self, values=None):
-        self.dict = {}
-        if values is not None:
-            for value in values:
-                self.add(value)
-
-    def __repr__(self):
-        return "Set: " + str(self.dict.keys())
-
-    def add(self, value):
-        self.dict[value] = True
-
-    def contains(self, value):
-        return value in self.dict
-
-    def remove(self, value):
-        del self.dict[value]
+a = np.array([1, 2, 3])
+b = np.array([2, 4, 6])
+print a + b
 
 
-a = Set([1,1,2,3,4])
-a.add(10)
-print a
+# 第二個範例
 
-def exp(n,p):
-    return n ** p
 
-square_of = partial( exp, p=2)
+a = np.array([1, 3, 2])
+b = np.array([-2, 1, -1])
 
-print square_of(3)
+la = np.sqrt(a.dot(a))
+lb = np.sqrt(b.dot(b))
+print("----計算向量長度----")
+print (la, lb)
 
-def double(n): return 2 * n
-def multiply(x,y): return x * y
-def is_even(n): return n % 2 == 0
+cos_angle = a.dot(b) / (la * lb)
 
-xss = [1,2,3,4,5]
-print("xss = {}".format(xss))
-print("map double xss = {}".format(map(double, xss)))
-print("filter is_even xss = {}".format(filter(is_even,xss)))
-print("reduce multiply xss = {}".format(reduce(multiply,xss)))
+print("----計算cos ----")
+print (cos_angle)
 
-for i, document in enumerate(xss):
-    print("i = {},e = {}".format(i, document))
+angle = np.arccos(cos_angle)
 
-list1 = ['a', 'b', 'c']
-list2 = [1, 2, 3]
-print(zip(list1, list2))
+print("----計算夾角(單位為π)----")
+print (angle)
 
-pairs = [('a', 1), ('b', 2), ('c', 3)]
-letters, numbers = zip(*pairs)
-print(letters,numbers)
+angle2 = angle * 360 / 2 / np.pi
+print("----轉換單位為角度----")
+print (angle2)
 
-def magic(*args, **kwargs):
-    print "unnamed args:", args
-    print "keyword args:", kwargs
-magic(1, 2, key="word", key2="word2")
 
-printsomething("d0330,Hello apple!")
+# 第三個範例
+
+a = np.array([[3, 4], [2, 3]])
+b = np.array([[1, 2], [3, 4]])
+c = np.mat([[3, 4], [2, 3]])
+d = np.mat([[1, 2], [3, 4]])
+e = np.dot(a, b)
+f = np.dot(c, d)
+print("----乘法運算----")
+print (a * b)
+print (c * d)
+print("----矩陣相乘----")
+print (e)
+print (f)
+
+# 第四個範例
+
+a = np.random.randint(1, 10, (3, 5))
+
+print (a)
+
+
+# 第五個範例
+
+a = np.mat([[1, 2, -1], [3, 0, 1], [4, 2, 1]])
+
+print np.linalg.det(a)
+
+
+# 第六個範例
+
+x = np.arange(0, 10, 0.1)
+y = np.sin(x)
+pyplot.plot(x, y)
+pyplot.show()
+
+print "d0330,Hello world!"

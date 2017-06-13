@@ -1,3 +1,4 @@
+
 # coding=utf-8
 import numpy as np
 from matplotlib import pyplot
@@ -49,7 +50,6 @@ print (c * d)
 print("----矩陣相乘----")
 print (e)
 print (f)
-
 
 # 第四個範例
 

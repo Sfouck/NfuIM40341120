@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e83b01f6-7e4d-4a38-916e-e6d2aaac8b7c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/Anleitung.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/Vier Gewinnt-KI.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exam/Connect-Four/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exam/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/VG.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/dtree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/exports/export_dtree.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/exports/export_mlp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/exports/export_mlp_20hn-mediocre.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/exports/export_mlp_300hn-bad.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/exports/export_mlp_30hn-mediocre.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/exports/export_mlp_40hn-flawed-but-good.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/exports/export_rbf.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/game.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/global_vars.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/kmeans.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/mlp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/pcn.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/rbf.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/export_dtree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/export_mlp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/export_rbf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/game.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/settings.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Exam/a40341120_connect4.py" afterPath="$PROJECT_DIR$/Exam/Connect-Four/a40341120_connect4.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Exam/connect-4.data" afterPath="$PROJECT_DIR$/Exam/Connect-Four/connect-4.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Python.iml" afterPath="$PROJECT_DIR$/.idea/Python.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exam/Connect-Four/a40341120_connect4.py" afterPath="$PROJECT_DIR$/Exam/Connect-Four/a40341120_connect4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/mlp.py" afterPath="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/mlp.py" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,23 +18,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$a40341120_connect4.coverage" NAME="a40341120_connect4 Coverage Results" MODIFIED="1497164210712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exam" />
-    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$4_regressor_example.coverage" NAME="4-regressor_example Coverage Results" MODIFIED="1496909821506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/tutorials/kerasTUT" />
     <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$d0525_neuralNetworks.coverage" NAME="d0525_neuralNetworks Coverage Results" MODIFIED="1495697871930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
-    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$d0413_gradient.coverage" NAME="d0413_gradient Coverage Results" MODIFIED="1492071763852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
-    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$d0601_clusters.coverage" NAME="d0601_clusters Coverage Results" MODIFIED="1496305846290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
-    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$d0504_scatter.coverage" NAME="d0504_scatter Coverage Results" MODIFIED="1493881335284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
-    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$Linear_regression_Youtube.coverage" NAME="Linear_regression_Youtube Coverage Results" MODIFIED="1497175832392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
     <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$d0608_recommend.coverage" NAME="d0608_recommend Coverage Results" MODIFIED="1496909621243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
+    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$d0601_clusters.coverage" NAME="d0601_clusters Coverage Results" MODIFIED="1496305846290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
+    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$a40341120_connect4.coverage" NAME="a40341120_connect4 Coverage Results" MODIFIED="1497164210712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exam" />
+    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$d0413_gradient.coverage" NAME="d0413_gradient Coverage Results" MODIFIED="1492071763852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
     <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$6_CNN_example.coverage" NAME="6-CNN_example Coverage Results" MODIFIED="1496910736323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/tutorials/kerasTUT" />
-    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$a40341120_adult.coverage" NAME="a40341120_adult Coverage Results" MODIFIED="1497368550527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exam/adult" />
-    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$d0413.coverage" NAME="d0413 Coverage Results" MODIFIED="1492069277231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
-    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$a40341120_bottom.coverage" NAME="a40341120_bottom Coverage Results" MODIFIED="1497109415021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exam" />
     <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$a40341120_middle.coverage" NAME="a40341120_middle Coverage Results" MODIFIED="1492674438836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exam" />
-    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$a40341120_pm2_5.coverage" NAME="a40341120_pm2.5 Coverage Results" MODIFIED="1497274826782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exam" />
+    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$a40341120_connect4__1_.coverage" NAME="a40341120_connect4 (1) Coverage Results" MODIFIED="1497433374819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exam/Connect-Four" />
+    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$d0504_scatter.coverage" NAME="d0504_scatter Coverage Results" MODIFIED="1493881335284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
+    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$4_regressor_example.coverage" NAME="4-regressor_example Coverage Results" MODIFIED="1496909821506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/tutorials/kerasTUT" />
+    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$d0413.coverage" NAME="d0413 Coverage Results" MODIFIED="1492069277231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
     <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$d0413_report.coverage" NAME="d0413_report Coverage Results" MODIFIED="1492071839206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
-    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$d0525_tree.coverage" NAME="d0525_tree Coverage Results" MODIFIED="1495698136322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
+    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$Linear_regression_Youtube.coverage" NAME="Linear_regression_Youtube Coverage Results" MODIFIED="1497175832392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
     <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$d0601_natural_lang.coverage" NAME="d0601_natural_lang Coverage Results" MODIFIED="1496305774499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
+    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$a40341120_bottom.coverage" NAME="a40341120_bottom Coverage Results" MODIFIED="1497109415021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exam" />
+    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$d0525_tree.coverage" NAME="d0525_tree Coverage Results" MODIFIED="1495698136322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice" />
+    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$a40341120_pm2_5.coverage" NAME="a40341120_pm2.5 Coverage Results" MODIFIED="1497274826782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exam" />
+    <SUITE FILE_PATH="coverage/nfu40341120_WuJianChen$a40341120_adult.coverage" NAME="a40341120_adult Coverage Results" MODIFIED="1497368550527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exam/adult" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -77,13 +55,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="a40341120_connect4.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="a40341120_connect4.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Exam/Connect-Four/a40341120_connect4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+            <state relative-caret-position="172">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
               <folding>
-                <element signature="e#15#60#0" expanded="true" />
+                <element signature="e#15#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,20 +70,73 @@
       <file leaf-file-name="a40341120_adult.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exam/adult/a40341120_adult.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-154">
-              <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-              <folding>
-                <element signature="e#15#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pandas.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pandas.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="580" column="67" lean-forward="true" selection-start-line="580" selection-start-column="67" selection-end-line="580" selection-end-column="67" />
+            <state relative-caret-position="-2">
+              <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global_vars.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Machine-Learning--Connect-Four-master/global_vars.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="59" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mlp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Machine-Learning--Connect-Four-master/mlp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3399">
+              <caret line="91" column="54" lean-forward="false" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/settings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -181,6 +212,8 @@
         <option value="$PROJECT_DIR$/Exam/adult/adult.names" />
         <option value="$PROJECT_DIR$/Exam/adult/adult.test" />
         <option value="$PROJECT_DIR$/Exam/adult/a40341120_adult.py" />
+        <option value="$PROJECT_DIR$/Machine-Learning--Connect-Four-master/mlp.py" />
+        <option value="$PROJECT_DIR$/Exam/Connect-Four/a40341120_connect4.py" />
       </list>
     </option>
   </component>
@@ -191,10 +224,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="40" />
-    <option name="width" value="1490" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -234,6 +267,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,7 +290,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Practice" />
+              <option name="myItemId" value="Exam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,7 +304,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Machine-Learning--Connect-Four-master" />
+              <option name="myItemId" value="Exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Connect-Four" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -284,17 +322,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Machine-Learning--Connect-Four-master" />
+              <option name="myItemId" value="Exam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="exports" />
+              <option name="myItemId" value="adult" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,18 +341,19 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin03\PycharmProjects\nfu40341120_WuJianChen\Exam\Connect-Four" />
+      <recent name="C:\Users\wjc\PycharmProjects\nfu40341120_WuJianChen\Exam\Connect-Four" />
+      <recent name="C:\Users\user\PycharmProjects\nfu40341120_WuJianChen\Exam" />
+      <recent name="C:\Users\User\PycharmProjects\nfu40341120_WuJianChen\Practice\lib" />
+      <recent name="C:\Users\User\PycharmProjects\nfu40341120_WuJianChen\Practice" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\wjc\PycharmProjects\nfu40341120_WuJianChen" />
       <recent name="D:\nfu40341120_WuJianChen\Exam" />
       <recent name="C:\Users\wjc\PycharmProjects\nfu40341120_WuJianChen\Exam" />
       <recent name="C:\Users\user\PycharmProjects\nfu40341120_WuJianChen\Practice\data" />
       <recent name="C:\Users\User\PycharmProjects\nfu40341120_WuJianChen\Practice\lib" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\wjc\PycharmProjects\nfu40341120_WuJianChen\Exam\Connect-Four" />
-      <recent name="C:\Users\user\PycharmProjects\nfu40341120_WuJianChen\Exam" />
-      <recent name="C:\Users\User\PycharmProjects\nfu40341120_WuJianChen\Practice\lib" />
-      <recent name="C:\Users\User\PycharmProjects\nfu40341120_WuJianChen\Practice" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -330,26 +368,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.a40341120_adult">
-    <configuration default="false" name="a40341120_bottom" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exam" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\admin03\PycharmProjects\nfu40341120_WuJianChen\Exam\a40341120_connect4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.a40341120_connect4 (1)">
     <configuration default="false" name="a40341120_pm2.5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -421,6 +440,25 @@
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exam/adult/a40341120_adult.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="a40341120_connect4 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exam/Connect-Four" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exam/Connect-Four/a40341120_connect4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -609,19 +647,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.a40341120_bottom" />
-      <item index="1" class="java.lang.String" itemvalue="Python.a40341120_pm2.5" />
-      <item index="2" class="java.lang.String" itemvalue="Python.a40341120_connect4" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Linear_regression_Youtube" />
-      <item index="4" class="java.lang.String" itemvalue="Python.a40341120_adult" />
+      <item index="0" class="java.lang.String" itemvalue="Python.a40341120_pm2.5" />
+      <item index="1" class="java.lang.String" itemvalue="Python.a40341120_connect4" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Linear_regression_Youtube" />
+      <item index="3" class="java.lang.String" itemvalue="Python.a40341120_adult" />
+      <item index="4" class="java.lang.String" itemvalue="Python.a40341120_connect4 (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.a40341120_adult" />
-        <item index="1" class="java.lang.String" itemvalue="Python.a40341120_pm2.5" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Linear_regression_Youtube" />
-        <item index="3" class="java.lang.String" itemvalue="Python.a40341120_connect4" />
-        <item index="4" class="java.lang.String" itemvalue="Python.a40341120_bottom" />
+        <item index="0" class="java.lang.String" itemvalue="Python.a40341120_connect4 (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.a40341120_adult" />
+        <item index="2" class="java.lang.String" itemvalue="Python.a40341120_pm2.5" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Linear_regression_Youtube" />
+        <item index="4" class="java.lang.String" itemvalue="Python.a40341120_connect4" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -739,16 +777,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="40" width="1490" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17503393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24893162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24841438" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -848,23 +886,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/data-science-from-scratch/code/linear_algebra.py" />
-    <entry file="file://D:/data-science-from-scratch/code/working_with_data.py" />
-    <entry file="file://$PROJECT_DIR$/Practice/lib/statistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practice/lib/working_with_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="142" column="62" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="142" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practice/data/gradient_descent.py" />
     <entry file="file://$PROJECT_DIR$/Practice/data/stocks.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -948,13 +969,6 @@
     <entry file="file://D:/tutorials/kerasTUT/3-backend.py" />
     <entry file="file://D:/tutorials/kerasTUT/4-regressor_example.py" />
     <entry file="file://D:/tutorials/kerasTUT/6-CNN_example.py" />
-    <entry file="file://$PROJECT_DIR$/Exam/connect-4.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/sklearn/naive_bayes.py" />
     <entry file="file://$PROJECT_DIR$/hotkey" />
     <entry file="file://$PROJECT_DIR$/Exam/data_link.md">
@@ -964,7 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pandas.md" />
     <entry file="file://$USER_HOME$/Downloads/Linear_regression_Num.py" />
     <entry file="file://$USER_HOME$/Downloads/Linear_regression_Youtube.py" />
     <entry file="file://$PROJECT_DIR$/Exam/Beijing_pm2.5.csv">
@@ -993,7 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-
           <folding />
         </state>
       </provider>
@@ -1002,8 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3960">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,7 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,7 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,7 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,7 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2728">
           <caret line="124" column="27" lean-forward="false" selection-start-line="124" selection-start-column="27" selection-end-line="124" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,7 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4">
           <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,7 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,9 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1077,27 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exam/Connect-Four/a40341120_connect4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding>
-            <element signature="e#15#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exam/adult/a40341120_adult.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1113,7 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="127" lean-forward="false" selection-start-line="8" selection-start-column="127" selection-end-line="8" selection-end-column="127" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1121,7 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,7 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="103" column="38" lean-forward="true" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,11 +1118,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Machine-Learning--Connect-Four-master/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine-Learning--Connect-Four-master/mlp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3399">
+          <caret line="91" column="54" lean-forward="false" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine-Learning--Connect-Four-master/global_vars.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="59" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/Connect-Four/connect-4.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Machine-Learning--Connect-Four-master/web/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="580" column="67" lean-forward="true" selection-start-line="580" selection-start-column="67" selection-end-line="580" selection-end-column="67" />
+        <state relative-caret-position="-2">
+          <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/adult/a40341120_adult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/Connect-Four/a40341120_connect4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

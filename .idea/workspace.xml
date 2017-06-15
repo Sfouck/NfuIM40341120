@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e83b01f6-7e4d-4a38-916e-e6d2aaac8b7c" name="Default" comment="20170615">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exam/Dota2/img/classifiers.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exam/Dota2/img/data.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exam/Dota2/img/import.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exam/Dota2/img/result.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exam/Dota2/img/train_test.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Exam/Dota2/img/classifiers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Exam/Dota2/img/data.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Exam/Dota2/img/import.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Exam/Dota2/img/result.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Exam/Dota2/img/train_test.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Exam/Dota2/img/classifiers.png" afterPath="$PROJECT_DIR$/Exam/Dota2/img/3.classifiers.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Exam/Dota2/img/data.png" afterPath="$PROJECT_DIR$/Exam/Dota2/img/2.data.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Exam/Dota2/img/import.png" afterPath="$PROJECT_DIR$/Exam/Dota2/img/1.import.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Exam/Dota2/img/result.png" afterPath="$PROJECT_DIR$/Exam/Dota2/img/5.result.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Exam/Dota2/img/train_test.png" afterPath="$PROJECT_DIR$/Exam/Dota2/img/4.train_test.png" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +65,7 @@
       <file leaf-file-name="a40341120_dota2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Exam/Dota2/a40341120_dota2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="414">
               <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
               <folding>
                 <element signature="e#30#45#0" expanded="true" />
@@ -803,7 +808,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497497340403</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="20170615">
+      <created>1497497399422</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1497497399422</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1007,6 +1019,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,6 +1083,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="107" column="47" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,7 +1240,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Exam/Dota2/a40341120_dota2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="414">
           <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
           <folding>
             <element signature="e#30#45#0" expanded="true" />
